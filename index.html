@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Laboratório Web.</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #00008B, #F8F8FF);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: linear-gradient(to right, #F8F8FF,#00008B);
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        }
+
+        img {
+            width: 200px;
+            border-radius: 8px;
+        }
+
+        a {
+            color: #1f4e79;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: red;
+        }
+
+        button {
+            background-color: #1f4e79;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #163a5c;
+        }
+
+        footer {
+            background-color: #1f4e79;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+
+</head>
+<body>
+
+<header>
+    <h1>CRUZEIRO</h1>
+    <p>Exemplo de página com HTML e CSS</p>
+</header>
+
+<main>
+
+    <div class="card">
+        <h2>Cruzeiro</h2>
+        <p>Nome: Cruzeiro EC</p>
+        <p>Fundação: 02/01/1921</p>
+        <p>Apelido: Mafia Azul</p>
+    </div>
+
+    <div class="card">
+        <h2>Maiores troféus</h2>
+        <ul>
+            <li>38x Campeonato Mineiro </li>
+            <li>4x Brasileirão</li>
+            <li>6x Copa do Brasil</li>
+            <li>2x Comebol Libertadores</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Imagem de exemplo</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb2qIxkcS0xsdRqmVay669uNT_B_quNuYuaQ&s">
+          <img src="https://s2-ge.glbimg.com/VCXHWkR2y8DBfpauuhAlYpgHneQ=/0x0:829x1054/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2022/M/A/QG1MjNQUGtWp4DhI4K6Q/whatsapp-image-2022-01-02-at-12.34.08.jpeg">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNODlvToQUXcYI4vlawG0Od_Qn3Ys7ndJOCw&s">
+    </div>
+
+    <div class="card">
+        <h2>Abrir site oficial do CRUZEIRO</h2>
+        <p>
+            <a href="https://www.cruzeiro.com.br" target="_blank">
+                Abrir o cruzeiro.com.br
+            </a>
+        </p>
+    </div>
+
+    <div class="button">
+        <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtMvXoyA0uNuZ5WIliquy2pWGzW5zx-CG6qQ&s">
+  <button type="button">Ver Imagem</button>
+</a>
+    </div>
+
+</main>
+
+<footer>
+    Página criada no Laboratório Web
+</footer>
+
+<script>
+    function mostrarMensagem() {
+        document.getElementById("mensagem").innerHTML =
+        "Parabéns! Você executou um comando usando JavaScript.";
+    }
+</script>
+
+</body>
+</html>
